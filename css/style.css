@@ -1,0 +1,144 @@
+.hidden{
+    display: none;
+}
+
+img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1; 
+    background-repeat: no-repeat;
+}
+
+body, h1, h2, form, input, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#clock {
+    font-size: 5rem;
+    color: white;
+}
+
+#greeting {
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+#weather {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+    outline: none; /* Remove the default focus outline */
+}
+
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+li {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li span {
+    flex-grow: 1;
+}
+
+li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: red;
+}
+
+
+#quote {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+#quote span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    color: white;
+}
+
+#login-form input[type="submit"] {
+    width: 50px;
+    height: 25px;
+    background-color: transparent;
+    color: white;
+    border: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#login-form input[type="submit"]:hover {
+    background-color: white;
+    opacity: 30%;
+    color: black;
+}
+
+#login-form input[type="text"] {
+    color: white;
+}
+
+#todo-form input[type="text"] {
+    color: white;
+}
+
+
+
+
